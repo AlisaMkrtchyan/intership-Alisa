@@ -22,6 +22,12 @@ li {
 .meet {
 	margin-top: 79px;
 }
+.first_list {
+	display: flex;
+}
+.second-li {
+	margin-left: 30%;
+}
 .meet_text {
 	font-family: 'Poppins';
 	font-style: normal;
@@ -126,7 +132,7 @@ footer {
 	display: flex;
 }
 .footer-li {
-	margin-left: 50%;
+	margin-left: 75%;
 	margin-top: 35px;
 }
 
@@ -148,7 +154,7 @@ footer {
 		font-size: 10px;
 	}
 	.footer-li {
-		font-size: 16px;
+		font-size: 8px;
 	}
 }
 @media (max-width: 548px) {
@@ -166,7 +172,7 @@ footer {
 }
 @media (max-width: 479px) {
 	.footer-li {
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 @media (max-width: 403px) {
@@ -181,6 +187,9 @@ footer {
 	.footer-li {
 		margin-left: 40%;
 		font-size: 7px;
+	}
+	.last-icon {
+		width: 20%;
 	}
 }
 @media (max-width: 325px) {
@@ -199,6 +208,5 @@ footer {
 @media (max-width: 343px) {
 	.footer_li {
 		font-size: 7px;
-		margin-right: -22px;
 	}
 }
